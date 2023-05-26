@@ -2,28 +2,43 @@
 Data type: int64
 Is unique: True
 % of Nones: 0.0
-89268     1
-45823     1
-142586    1
-165018    1
-35765     1
-         ..
-109514    1
-28640     1
-87833     1
-154200    1
-86630     1
-Name: id, Length: 118936, dtype: int64
+Statistics:
+count    118936.000000
+mean      99244.462619
+std       42889.113014
+min       24890.000000
+1%        26384.350000
+5%        32362.750000
+25%       62074.750000
+50%       99268.000000
+75%      136346.250000
+95%      166175.250000
+99%      172057.300000
+max      173557.000000
+Name: id, dtype: float64
 ----------------------------------------------< year >----------------------------------------------
 Data type: int64
 Is unique: False
 % of Nones: 0.0
-2019    118936
-Name: year, dtype: int64
+Statistics:
+count    118936.0
+mean       2019.0
+std           0.0
+min        2019.0
+1%         2019.0
+5%         2019.0
+25%        2019.0
+50%        2019.0
+75%        2019.0
+95%        2019.0
+99%        2019.0
+max        2019.0
+Name: year, dtype: float64
 -------------------------------------------< loan_limit >-------------------------------------------
 Data type: object
 Is unique: False
 % of Nones: 0.02279377144010224
+Unique values:
 cf     108216
 ncf      8009
 Name: loan_limit, dtype: int64
@@ -31,6 +46,7 @@ Name: loan_limit, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 Male                 33901
 Joint                33161
 Sex Not Available    30067
@@ -40,6 +56,7 @@ Name: gender, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.006112531109167956
+Unique values:
 nopre    99723
 pre      18486
 Name: approv_in_adv, dtype: int64
@@ -47,6 +64,7 @@ Name: approv_in_adv, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 type1    90549
 type2    16559
 type3    11828
@@ -55,6 +73,7 @@ Name: loan_type, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0008407883231317684
+Unique values:
 p3    44677
 p4    43823
 p1    27705
@@ -64,6 +83,7 @@ Name: loan_purpose, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 l1    113908
 l2      5028
 Name: credit_worthiness, dtype: int64
@@ -71,6 +91,7 @@ Name: credit_worthiness, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 nopc    118486
 opc        450
 Name: open_credit, dtype: int64
@@ -78,6 +99,7 @@ Name: open_credit, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 nob/c    102377
 b/c       16559
 Name: business_or_commercial, dtype: int64
@@ -85,101 +107,97 @@ Name: business_or_commercial, dtype: int64
 Data type: int64
 Is unique: False
 % of Nones: 0.0
-206500     3700
-256500     3271
-226500     3164
-156500     3119
-486500     3062
-           ... 
-3576500       1
-1546500       1
-2626500       1
-1966500       1
-2706500       1
-Name: loan_amount, Length: 208, dtype: int64
+Statistics:
+count    1.189360e+05
+mean     3.312533e+05
+std      1.843306e+05
+min      1.650000e+04
+1%       6.650000e+04
+5%       1.065000e+05
+25%      1.965000e+05
+50%      2.965000e+05
+75%      4.365000e+05
+95%      6.565000e+05
+99%      8.665000e+05
+max      3.576500e+06
+Name: loan_amount, dtype: float64
 ----------------------------------------< rate_of_interest >----------------------------------------
 Data type: float64
 Is unique: False
 % of Nones: 0.24513183560906707
-3.990    11611
-3.625     7003
-3.875     6849
-3.750     6774
-3.500     5508
-         ...  
-6.250        1
-4.275        1
-2.650        1
-2.375        1
-2.900        1
-Name: rate_of_interest, Length: 124, dtype: int64
+Statistics:
+count    89781.000000
+mean         4.045721
+std          0.560895
+min          0.000000
+1%           2.875000
+5%           3.125000
+25%          3.625000
+50%          3.990000
+75%          4.375000
+95%          4.990000
+99%          5.500000
+max          7.750000
+Name: rate_of_interest, dtype: float64
 --------------------------------------< interest_rate_spread >--------------------------------------
 Data type: float64
 Is unique: False
 % of Nones: 0.24644346539315262
--0.0280    62
--0.0380    51
--0.0230    43
- 0.2520    43
--0.1730    43
-           ..
- 1.1416     1
--0.6748     1
- 1.6538     1
--0.3983     1
- 1.4443     1
-Name: interest_rate_spread, Length: 21531, dtype: int64
+Statistics:
+count    89625.000000
+mean         0.441508
+std          0.512811
+min         -3.638000
+1%          -0.678276
+5%          -0.318760
+25%          0.076000
+50%          0.390100
+75%          0.774900
+95%          1.378000
+99%          1.611452
+max          2.885400
+Name: interest_rate_spread, dtype: float64
 ----------------------------------------< upfront_charges >-----------------------------------------
 Data type: float64
 Is unique: False
 % of Nones: 0.2662944777022937
-0.00        16696
-1250.00       920
-1150.00       727
-795.00        391
-295.00        323
-            ...  
-7380.80         1
-9858.19         1
-10340.00        1
-3052.33         1
-7162.64         1
-Name: upfront_charges, Length: 47947, dtype: int64
+Statistics:
+count    87264.000000
+mean      3221.204878
+std       3247.979387
+min          0.000000
+1%           0.000000
+5%           0.000000
+25%        581.110000
+50%       2592.060000
+75%       4806.250000
+95%       9235.425000
+99%      14208.316800
+max      60000.000000
+Name: upfront_charges, dtype: float64
 ----------------------------------------------< term >----------------------------------------------
 Data type: float64
 Is unique: False
 % of Nones: 0.0002858680298648012
-360.0    97391
-180.0    10388
-240.0     4650
-300.0     2242
-324.0     2201
-120.0      415
-144.0      225
-348.0      195
-336.0      182
-96.0       154
-312.0      149
-156.0      131
-216.0       92
-276.0       84
-132.0       80
-288.0       73
-168.0       64
-228.0       60
-204.0       45
-264.0       34
-108.0       24
-192.0       12
-252.0        8
-165.0        1
-280.0        1
-322.0        1
-Name: term, dtype: int64
+Statistics:
+count    118902.000000
+mean        335.151225
+std          58.431235
+min          96.000000
+1%          180.000000
+5%          180.000000
+25%         360.000000
+50%         360.000000
+75%         360.000000
+95%         360.000000
+99%         360.000000
+max         360.000000
+Name: term, dtype: float64
 ---------------------------------------< neg_ammortization >----------------------------------------
 Data type: object
 Is unique: False
 % of Nones: 0.0008155646734378153
+Unique values:
 not_neg    106728
 neg_amm     12111
 Name: neg_ammortization, dtype: int64
@@ -187,6 +205,7 @@ Name: neg_ammortization, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 not_int     113173
 int_only      5763
 Name: interest_only, dtype: int64
@@ -194,6 +213,7 @@ Name: interest_only, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 not_lpsm    116244
 lpsm          2692
 Name: lump_sum_payment, dtype: int64
@@ -201,22 +221,25 @@ Name: lump_sum_payment, dtype: int64
 Data type: float64
 Is unique: False
 % of Nones: 0.10189513688033901
-3.080000e+05    2248
-2.580000e+05    2185
-3.580000e+05    2176
-3.280000e+05    2030
-2.680000e+05    2022
-                ... 
-1.418971e+09       1
-4.908000e+06       1
-2.348000e+06       1
-3.005512e+08       1
-2.438000e+06       1
-Name: property_value, Length: 463, dtype: int64
+Statistics:
+count    1.068170e+05
+mean     4.784026e+07
+std      3.795995e+09
+min      8.000000e+03
+1%       8.800000e+04
+5%       1.480000e+05
+25%      2.680000e+05
+50%      4.180000e+05
+75%      6.280000e+05
+95%      1.058000e+06
+99%      1.858000e+06
+max      6.779013e+11
+Name: property_value, dtype: float64
 ---------------------------------------< construction_type >----------------------------------------
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 sb    118912
 mh        24
 Name: construction_type, dtype: int64
@@ -224,6 +247,7 @@ Name: construction_type, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 pr    110550
 ir      5863
 sr      2523
@@ -232,6 +256,7 @@ Name: occupancy_type, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 home    118912
 land        24
 Name: secured_by, dtype: int64
@@ -239,6 +264,7 @@ Name: secured_by, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 1U    117188
 2U      1176
 3U       312
@@ -248,22 +274,25 @@ Name: total_units, dtype: int64
 Data type: float64
 Is unique: False
 % of Nones: 0.06162978408555862
-0.0         1027
-3600.0      1005
-4200.0       989
-4800.0       965
-3720.0       930
-            ... 
-94260.0        1
-64920.0        1
-312000.0       1
-56580.0        1
-45600.0        1
-Name: income, Length: 938, dtype: int64
+Statistics:
+count    111606.000000
+mean       6964.647062
+std        6549.553597
+min           0.000000
+1%          540.000000
+5%         1920.000000
+25%        3720.000000
+50%        5760.000000
+75%        8520.000000
+95%       15420.000000
+99%       26640.000000
+max      578580.000000
+Name: income, dtype: float64
 ------------------------------------------< credit_type >-------------------------------------------
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 CIB     38432
 CRIF    35204
 EXP     33024
@@ -273,6 +302,7 @@ Name: credit_type, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 867     338
 639     336
 554     336
@@ -285,17 +315,19 @@ _801      1
 75_8      1
 _675      1
 Name: credit_score, Length: 411, dtype: int64
-------------------------------------< co-applicant_credit_type >------------------------------------
+------------------------------------< co_applicant_credit_type >------------------------------------
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 EXP    59519
 CIB    59417
-Name: co-applicant_credit_type, dtype: int64
+Name: co_applicant_credit_type, dtype: int64
 ----------------------------------------------< age >-----------------------------------------------
 Data type: object
 Is unique: False
 % of Nones: 0.0013116297840855586
+Unique values:
 45-54    27755
 35-44    26238
 55-64    26032
@@ -308,6 +340,7 @@ Name: age, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0013116297840855586
+Unique values:
 to_inst     76604
 not_inst    42176
 Name: submission_of_application, dtype: int64
@@ -315,22 +348,25 @@ Name: submission_of_application, dtype: int64
 Data type: float64
 Is unique: False
 % of Nones: 0.10189513688033901
-81.250000    417
-91.666667    404
-80.038760    298
-80.032468    265
-78.645833    263
-            ... 
-39.923747      1
-30.311355      1
-24.475191      1
-79.183884      1
-64.627660      1
-Name: ltv, Length: 7774, dtype: int64
+Statistics:
+count    106817.000000
+mean         72.740675
+std          38.671953
+min           0.967478
+1%           19.610322
+5%           36.356932
+25%          60.416667
+50%          75.135870
+75%          86.184211
+95%          98.728814
+99%         102.852349
+max        7831.250000
+Name: ltv, dtype: float64
 ---------------------------------------------< region >---------------------------------------------
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 North         59846
 south         51115
 central        6984
@@ -340,13 +376,7 @@ Name: region, dtype: int64
 Data type: object
 Is unique: False
 % of Nones: 0.0
+Unique values:
 direct      118912
 Indriect        24
 Name: security_type, dtype: int64
----------------------------------------------< status >---------------------------------------------
-Data type: int64
-Is unique: False
-% of Nones: 0.0
-0    89625
-1    29311
-Name: status, dtype: int64

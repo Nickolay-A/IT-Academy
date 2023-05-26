@@ -1,0 +1,1044 @@
+------------------------------------------< loan_amount >-------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean     321316.876303
+std      160149.381951
+min       16500.000000
+1%        66500.000000
+5%       106500.000000
+25%      196500.000000
+50%      296500.000000
+75%      426500.000000
+95%      626500.000000
+99%      726500.000000
+max      796500.000000
+Name: loan_amount, dtype: float64
+----------------------------------------< rate_of_interest >----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          4.035487
+std           0.469101
+min           2.500000
+1%            2.990000
+5%            3.250000
+25%           3.750000
+50%           4.032034
+75%           4.250000
+95%           4.875000
+99%           5.250000
+max           5.500000
+Name: rate_of_interest, dtype: float64
+--------------------------------------< interest_rate_spread >--------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.437600
+std           0.438833
+min          -0.971400
+1%           -0.629255
+5%           -0.247800
+25%           0.181500
+50%           0.436623
+75%           0.619400
+95%           1.301100
+99%           1.507365
+max           1.823200
+Name: interest_rate_spread, dtype: float64
+----------------------------------------< upfront_charges >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean       2895.114336
+std        2252.915182
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%        1200.000000
+50%        2919.576808
+75%        3716.300000
+95%        7470.907500
+99%        9912.500000
+max       11139.720000
+Name: upfront_charges, dtype: float64
+-----------------------------------------< property_value >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    1.189360e+05
+mean     4.432851e+05
+std      2.149212e+05
+min      8.000000e+03
+1%       8.800000e+04
+5%       1.580000e+05
+25%      2.880000e+05
+50%      4.080000e+05
+75%      5.580000e+05
+95%      8.780000e+05
+99%      1.058000e+06
+max      1.168000e+06
+Name: property_value, dtype: float64
+------------------------------------------< total_units >-------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.021692
+std           0.198960
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           1.000000
+max           3.000000
+Name: total_units, dtype: float64
+---------------------------------------------< income >---------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean       6088.244434
+std        2994.953506
+min          60.000000
+1%         1320.000000
+5%         2100.000000
+25%        3960.000000
+50%        5580.000000
+75%        7620.000000
+95%       12180.000000
+99%       14760.000000
+max       15780.000000
+Name: income, dtype: float64
+------------------------------------------< credit_score >------------------------------------------
+Data type: int64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean        699.759770
+std         116.006624
+min         500.000000
+1%          504.000000
+5%          519.000000
+25%         599.000000
+50%         699.000000
+75%         801.000000
+95%         881.000000
+99%         897.000000
+max         900.000000
+Name: credit_score, dtype: float64
+----------------------------------------------< age >-----------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.00000
+mean          3.13614
+std           1.41717
+min           0.00000
+1%            1.00000
+5%            1.00000
+25%           2.00000
+50%           3.00000
+75%           4.00000
+95%           5.00000
+99%           6.00000
+max           6.00000
+Name: age, dtype: float64
+----------------------------------------------< ltv >-----------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean         73.449102
+std          16.713151
+min          21.768466
+1%           27.607069
+5%           40.720524
+25%          64.380531
+50%          75.240385
+75%          84.584614
+95%          98.010381
+99%         102.033493
+max         124.579832
+Name: ltv, dtype: float64
+-----------------------------------------< loan_limit_cf >------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.932661
+std           0.250609
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: loan_limit_cf, dtype: float64
+-----------------------------------------< loan_limit_ncf >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.067339
+std           0.250609
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: loan_limit_ncf, dtype: float64
+-----------------------------------------< gender_Female >------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.183351
+std           0.386955
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: gender_Female, dtype: float64
+------------------------------------------< gender_Joint >------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.278814
+std           0.448418
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: gender_Joint, dtype: float64
+------------------------------------------< gender_Male >-------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.285036
+std           0.451433
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: gender_Male, dtype: float64
+------------------------------------< gender_Sex Not Available >------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.252800
+std           0.434619
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: gender_Sex Not Available, dtype: float64
+--------------------------------------< approv_in_adv_nopre >---------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.844572
+std           0.362314
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: approv_in_adv_nopre, dtype: float64
+---------------------------------------< approv_in_adv_pre >----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.155428
+std           0.362314
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: approv_in_adv_pre, dtype: float64
+----------------------------------------< loan_type_type1 >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.761325
+std           0.426275
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: loan_type_type1, dtype: float64
+----------------------------------------< loan_type_type2 >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.139226
+std           0.346184
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: loan_type_type2, dtype: float64
+----------------------------------------< loan_type_type3 >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.099448
+std           0.299264
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: loan_type_type3, dtype: float64
+----------------------------------------< loan_purpose_p1 >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.232940
+std           0.422706
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: loan_purpose_p1, dtype: float64
+----------------------------------------< loan_purpose_p2 >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.022121
+std           0.147078
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           1.000000
+max           1.000000
+Name: loan_purpose_p2, dtype: float64
+----------------------------------------< loan_purpose_p3 >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.376480
+std           0.484505
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: loan_purpose_p3, dtype: float64
+----------------------------------------< loan_purpose_p4 >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.368459
+std           0.482389
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: loan_purpose_p4, dtype: float64
+--------------------------------------< credit_worthiness_l1 >--------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.957725
+std           0.201216
+min           0.000000
+1%            0.000000
+5%            1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: credit_worthiness_l1, dtype: float64
+--------------------------------------< credit_worthiness_l2 >--------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.042275
+std           0.201216
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           1.000000
+max           1.000000
+Name: credit_worthiness_l2, dtype: float64
+----------------------------------------< open_credit_nopc >----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.996216
+std           0.061394
+min           0.000000
+1%            1.000000
+5%            1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: open_credit_nopc, dtype: float64
+----------------------------------------< open_credit_opc >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.003784
+std           0.061394
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           0.000000
+max           1.000000
+Name: open_credit_opc, dtype: float64
+-----------------------------------< business_or_commercial_b/c >-----------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.139226
+std           0.346184
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: business_or_commercial_b/c, dtype: float64
+----------------------------------< business_or_commercial_nob/c >----------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.860774
+std           0.346184
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: business_or_commercial_nob/c, dtype: float64
+-----------------------------------< neg_ammortization_neg_amm >------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.101828
+std           0.302423
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: neg_ammortization_neg_amm, dtype: float64
+-----------------------------------< neg_ammortization_not_neg >------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.898172
+std           0.302423
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: neg_ammortization_not_neg, dtype: float64
+-------------------------------------< interest_only_int_only >-------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.048455
+std           0.214726
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           1.000000
+max           1.000000
+Name: interest_only_int_only, dtype: float64
+-------------------------------------< interest_only_not_int >--------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.951545
+std           0.214726
+min           0.000000
+1%            0.000000
+5%            1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: interest_only_not_int, dtype: float64
+-------------------------------------< lump_sum_payment_lpsm >--------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.022634
+std           0.148734
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           1.000000
+max           1.000000
+Name: lump_sum_payment_lpsm, dtype: float64
+-----------------------------------< lump_sum_payment_not_lpsm >------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.977366
+std           0.148734
+min           0.000000
+1%            0.000000
+5%            1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: lump_sum_payment_not_lpsm, dtype: float64
+--------------------------------------< construction_type_mh >--------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.000202
+std           0.014204
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           0.000000
+max           1.000000
+Name: construction_type_mh, dtype: float64
+--------------------------------------< construction_type_sb >--------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.999798
+std           0.014204
+min           0.000000
+1%            1.000000
+5%            1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: construction_type_sb, dtype: float64
+---------------------------------------< occupancy_type_ir >----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.049295
+std           0.216485
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           1.000000
+max           1.000000
+Name: occupancy_type_ir, dtype: float64
+---------------------------------------< occupancy_type_pr >----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.929491
+std           0.256003
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: occupancy_type_pr, dtype: float64
+---------------------------------------< occupancy_type_sr >----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.021213
+std           0.144095
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           1.000000
+max           1.000000
+Name: occupancy_type_sr, dtype: float64
+----------------------------------------< secured_by_home >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.999798
+std           0.014204
+min           0.000000
+1%            1.000000
+5%            1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: secured_by_home, dtype: float64
+----------------------------------------< secured_by_land >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.000202
+std           0.014204
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           0.000000
+max           1.000000
+Name: secured_by_land, dtype: float64
+----------------------------------------< credit_type_CIB >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.323132
+std           0.467675
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: credit_type_CIB, dtype: float64
+----------------------------------------< credit_type_CRIF >----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.295991
+std           0.456489
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: credit_type_CRIF, dtype: float64
+----------------------------------------< credit_type_EQUI >----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.103215
+std           0.304241
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: credit_type_EQUI, dtype: float64
+----------------------------------------< credit_type_EXP >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.277662
+std           0.447848
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: credit_type_EXP, dtype: float64
+----------------------------------< co_applicant_credit_type_CIB >----------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.499571
+std           0.500002
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: co_applicant_credit_type_CIB, dtype: float64
+----------------------------------< co_applicant_credit_type_EXP >----------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.500429
+std           0.500002
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: co_applicant_credit_type_EXP, dtype: float64
+-------------------------------< submission_of_application_not_inst >-------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.354611
+std           0.478397
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: submission_of_application_not_inst, dtype: float64
+-------------------------------< submission_of_application_to_inst >--------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.645389
+std           0.478397
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: submission_of_application_to_inst, dtype: float64
+------------------------------------------< region_North >------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.503178
+std           0.499992
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: region_North, dtype: float64
+---------------------------------------< region_North-East >----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.008332
+std           0.090900
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           0.000000
+max           1.000000
+Name: region_North-East, dtype: float64
+-----------------------------------------< region_central >-----------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.058721
+std           0.235102
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: region_central, dtype: float64
+------------------------------------------< region_south >------------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.429769
+std           0.495045
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: region_south, dtype: float64
+-------------------------------------< security_type_Indriect >-------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.000202
+std           0.014204
+min           0.000000
+1%            0.000000
+5%            0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+95%           0.000000
+99%           0.000000
+max           1.000000
+Name: security_type_Indriect, dtype: float64
+--------------------------------------< security_type_direct >--------------------------------------
+Data type: float64
+Is unique: False
+% of Nones: 0.0
+Statistics:
+count    118936.000000
+mean          0.999798
+std           0.014204
+min           0.000000
+1%            1.000000
+5%            1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+95%           1.000000
+99%           1.000000
+max           1.000000
+Name: security_type_direct, dtype: float64
